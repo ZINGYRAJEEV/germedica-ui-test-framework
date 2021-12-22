@@ -21,3 +21,5 @@ mvn clean compile test
 xpath :
 https://www.youtube.com/watch?v=3uktjWgKrtI
 
+eg.
+//dependency[(((groupId[text()='log4j']) and (artifactId[text()="log4j"])) or ((groupId[text()='org.apache.logging.log4j']) and (artifactId[text()='log4j-core' or text()='log4j-api']) and (version[not(matches(text(), "([2-9]+\.1[5-9]\.[0-9]+)"))] )))]
